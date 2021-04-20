@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    background-color: #dc3545;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    flex-flow: wrap;
+    margin-bottom: 50px;
+}
+
+.subImg {
+    width: 300px;
+    height: 150px;
+}
+
+.subTxt {
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    margin-top: -25px;
+    box-shadow: 0 50px 40px -14px rgb(0 0 0 / 25%);
+}
+
+.subTxt p {
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.subjects:hover {
+    box-shadow: 0 50px 40px -14px rgb(0 0 0 / 25%);
+    opacity: 0.6;
+}
+
+#eng_Img {
+    background-image: url('../images/engImg.jpg');
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+#html5_Img {
+    background-image: url('../images/html.jpg');
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+#ict_Img {
+    background-image: url('../images/ict.jpg');
+    margin-right: 25px;
+    margin-top: 25px;
+    background-size: cover;
+}
+
+#maths_Img {
+    background-image: url('../images/maths1.jpg');
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+#sci_Img {
+    background-image: url('../images/sci.jpg');
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+
+/*top score*/
+
+#top-score-check {
+    width: 1530px;
+    height: 90px;
+    background-color: #dc3545;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 50px 40px -14px rgb(0 0 0 / 25%);
+}
+
+select,
+label {
+    width: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
